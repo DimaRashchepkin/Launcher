@@ -1,0 +1,23 @@
+﻿<Window x:Class="Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Launcher"
+        mc:Ignorable="d"
+        Title="Launcher" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="logInButton" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="30" Width="90" Content="Log in" Click="LogInButton_Click" FontSize="16"/>
+        <Button x:Name="logOutButton" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="30" Width="90" Content="Log out" Click="LogOutButton_Click" Grid.Column="2" FontSize="16"/>
+        <Button x:Name="startButton" Content="New game" HorizontalAlignment="Center" VerticalAlignment="Top" Height="30" Width="110" Click="StartButton_Click" Grid.Column="1" FontSize="16" Margin="0,187,0,0"/>
+        <Button x:Name="recordsButton" Content="Records" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" Width="110" Height="30" Click="RecordsButton_Click" Grid.Column="1" FontSize="16"/>
+        <Button x:Name="registerButton" Content="Register" HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" Height="30" Width="90" FontSize="16" Click="registerButton_Click"/>
+        <Label x:Name="infoLabel" Grid.Column="1" Content="Log in or register" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="540" FontSize="16"/>
+    </Grid>
+
+</Window>
