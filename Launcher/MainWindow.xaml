@@ -18,6 +18,7 @@
         <Button x:Name="recordsButton" Content="Records" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" Width="110" Height="30" Click="RecordsButton_Click" Grid.Column="1" FontSize="16"/>
         <Button x:Name="registerButton" Content="Register" HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" Height="30" Width="90" FontSize="16" Click="registerButton_Click"/>
         <Label x:Name="infoLabel" Grid.Column="1" Content="Log in or register" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="540" FontSize="16"/>
+        <Button x:Name="continueButton" Grid.Column="1" Content="Continue" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Height="30" Width="110" FontSize="16"/>
     </Grid>
 
 </Window>
